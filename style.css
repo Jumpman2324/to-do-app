@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(98, 24, 130), rgb(25, 81, 171));
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#new-task {
+    height: 25px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+}
+
+.add-btn {
+    height: 35px;
+    width: 100px;
+    border-radius: 7px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-btn:hover {
+    background-color: rgb(235, 176, 66);
+}
+
+.main {
+    text-align: center;
+    width: 100%;
+}
+
+ul {
+    list-style-position: inside; /* Set list marker inside the list item */
+}
+
+.delete-btn {
+    cursor: pointer;
+    height: 35px;
+    width: 10px;
+}
+
+button.delete-btn {
+    background-color: #f44336; /* Red background color */
+    color: white; /* White text color */
+    border: none; /* Remove button border */
+    padding: 5px 10px; /* Add some padding */
+    margin-left: 10px; /* Add some space between the task text and the button */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+button.delete-btn:hover {
+    background-color: #ff0000;
+}
